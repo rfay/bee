@@ -10,6 +10,8 @@ system for each contributed module, theme and layout.
 
 ## [Unreleased] - 2026-09-15
 ### Fixed
+- Unclear PHP warnings and a misleading rate limit message when the GitHub API
+refuses a request, for example because of an invalid token.
 - Warnings if dependency does not exist in the Backdrop Contributed Modules
 space (e.g. CiviCRM).
 - Syntax bug in some command definitions.
