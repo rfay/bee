@@ -9,6 +9,10 @@ which is based on the major version of Backdrop CMS with a semantic version
 system for each contributed module, theme and layout.
 
 ## [Unreleased] - 2026-09-15
+### Added
+- The `download` and `download-core` commands use the `GH_TOKEN` or
+`GITHUB_TOKEN` environment variable if `--github-token` is not given.
+
 ### Fixed
 - Warnings if dependency does not exist in the Backdrop Contributed Modules
 space (e.g. CiviCRM).
